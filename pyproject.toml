@@ -1,0 +1,35 @@
+[build-system]
+requires = [
+  "setuptools>=42",
+  "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "py-statistics"
+version = "0.0.0"
+dependencies = [
+  "pandas>=2.2.3",
+  "scipy>=1.15.0"
+]
+requires-python = ">=3.10"
+authors = [
+  {name = "Matteo", email = ""},
+]
+maintainers = [
+  {name = "Matteo", email = ""},
+]
+description = "Statistics basics with Python"
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["python", "formula-one", "data-analysis"]
+classifiers = [
+  "Development Status :: Beta",
+  "Programming Language :: Python"
+]
+
+[project.urls]
+Homepage = ""
+Documentation = "https://readthedocs.org"
+Repository = "https://github.com/matteo-serafino/py-statistics"
+Changelog = ""
